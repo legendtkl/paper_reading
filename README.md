@@ -7,3 +7,4 @@
 
 1. ***Discretized Streams: Fault-Tolerant Streaming Computation at Scale***: [笔记](./realtime-compute/spark-streaming-overview.md) 
 
+2. ***Structured Streaming: A Declarative API for Real-Time Applications in Apache Spark*** : [笔记](./realtime-compute/structured_streaming.md)
