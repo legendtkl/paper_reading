@@ -53,7 +53,7 @@ counts = ones.runningReduce((a, b) => a + b)
 
 对应的数据流如下图
 
-[spark streaming -1]
+![](./spark-streaming-1.jpg)
 
 执行过程简单描述如下：
 
@@ -79,7 +79,7 @@ counts = ones.runningReduce((a, b) => a + b)
 2. worker: 负责接收数据，存储数据以及执行 task。我们现在也叫 executor。
 3. client library。
 
-【spark streaming-2】
+![](./spark-streaming-2.jpg)
 
 Spark Streaming 的无状态的 task 可以运行在任意节点，相比于传统的流式系统的固定拓扑结构（注：不太确定目前还是不是都是这样），扩展起来会更加的容易。
 
