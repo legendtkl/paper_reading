@@ -52,7 +52,7 @@ Dataflow 模型的核心点在于：
 
 ### 2. 核心概念
 
-####2.1 Unbounded/Bounded vs Streaming/Batch
+#### 2.1 Unbounded/Bounded vs Streaming/Batch
 
 在 Dataflow 之前，对于有限/无限数据集合的描述，一般使用批/流 （Batch/Streaming），总有一种暗示底层两套引擎（批处理引擎和流处理引擎）。对于批处理和流处理，一般情况下是可以互相转化的，比如 Spark 用微批来模拟流。而 Dataflow 模型一般将有限/无限数据集合称为 Bounded/Unbounded Dataset，而 Streaming/Batch 用来特指执行引擎。
 
